@@ -1,0 +1,65 @@
+
+
+* {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-image: url(https://cdn.wallpapersafari.com/27/32/jt4AoG.jpg);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 100%;
+    background-color: #128c7e;
+    margin-bottom: 120px;
+    border-radius: 14px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.messages-container {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 250px;
+}
+
+.message-box {
+    background-color: #daf7c1;
+    width: 320px;
+    margin: 10px 8px;
+    padding: 8px 30px;
+    border-radius: 14px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-box:hover {
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 900px) { 
+    .messages-container {
+
+    margin: 0 50px;
+    
+}
+}

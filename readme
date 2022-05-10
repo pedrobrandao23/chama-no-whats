@@ -1,0 +1,9 @@
+* O projeto Chama no Whats foi proposto pela Driven, como uma forma de exercitar habilidades na programação web.
+
+* Nele foram aplicados conhecimentos em:
+    - HTML semântico;
+    - CSS responsivo com flex;
+    - Lógica de programação em JS (condicionais);
+    - DOM.
+
+* A aplicação abrirá um link do Whatsapp com a mensagem selecionada, para o número que for inserido no navegador. 
